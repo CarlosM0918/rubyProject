@@ -6,6 +6,7 @@ end
 
 persona = Persona.new("pepe", 14)
 
-puts persona.name
-puts persona.age
+puts persona
+# puts persona.name
+# puts persona.age
 
