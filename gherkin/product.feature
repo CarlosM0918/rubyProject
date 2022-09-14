@@ -45,12 +45,12 @@ Feature: User interacts whit the page
 
     Rule: Validate that the color change
 
-    Scenario: User change the coloro of the product
+    Scenario: User change the color of the product
         Given user in a product page
         When user click on a color
         Then the product color change as selected
 
-    Rule: Validate email when the color os not available
+    Rule: Validate email when the color is not available
 
     Scenario Outline: Do not send empty email when the color is not available
         Given user in a product page
